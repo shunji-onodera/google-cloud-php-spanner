@@ -372,9 +372,9 @@ class Result implements \IteratorAggregate
 
     /**
      * @access private
-     * @return \Generator
+     * @return \Traversable
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->rows();
     }
